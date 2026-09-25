@@ -55,7 +55,7 @@ My portfolio at [norazfizal.dev](https://norazfizal.dev) is a single static page
 through CloudFront and deployed with Terraform.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/<USERNAME>/<USERNAME>/output/github-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/<USERNAME>/<USERNAME>/output/github-snake.svg">
-  <img alt="Contribution graph snake animation" src="https://raw.githubusercontent.com/<USERNAME>/<USERNAME>/output/github-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dreadlessdream/dreadlessdream/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dreadlessdream/dreadlessdream/output/github-snake.svg">
+  <img alt="Contribution graph snake animation" src="https://raw.githubusercontent.com/dreadlessdream/dreadlessdream/output/github-snake.svg">
 </picture>
