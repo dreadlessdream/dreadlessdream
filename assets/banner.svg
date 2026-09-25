@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-labelledby="t d" font-family="'JetBrains Mono', ui-monospace, Consolas, 'Courier New', monospace">
+  <title id="t">Norazfizal Razak</title>
+  <desc id="d">Banner with the NR terminal logo, the name Norazfizal Razak and the line: AWS, cloud transformation and platform delivery.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0d1c"/>
+      <stop offset="1" stop-color="#04050b"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7c5cff"/>
+      <stop offset="0.5" stop-color="#ff4fd8"/>
+      <stop offset="1" stop-color="#c6ff3d"/>
+    </linearGradient>
+    <radialGradient id="glowV" cx="0.12" cy="0.1" r="0.6"><stop offset="0" stop-color="#7c5cff" stop-opacity=".45"/><stop offset="1" stop-color="#7c5cff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowL" cx="0.95" cy="1" r="0.5"><stop offset="0" stop-color="#c6ff3d" stop-opacity=".22"/><stop offset="1" stop-color="#c6ff3d" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".05"/></pattern>
+    <filter id="blur" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="18" fill="url(#glowV)"/>
+  <rect width="1200" height="300" rx="18" fill="url(#glowL)"/>
+  <rect width="1200" height="300" rx="18" fill="url(#grid)"/>
+
+  <!-- network nodes -->
+  <g stroke="#7c5cff" stroke-opacity=".45" stroke-width="1.2" fill="none">
+    <path d="M760 60L860 120L980 70L1090 140L1010 230L890 200L860 120"/>
+    <path d="M980 70L1010 230M760 60L890 200"/>
+  </g>
+  <g>
+    <circle cx="760" cy="60" r="4" fill="#7c5cff"/><circle cx="860" cy="120" r="5" fill="#c6ff3d"/>
+    <circle cx="980" cy="70" r="4" fill="#ff4fd8"/><circle cx="1090" cy="140" r="5" fill="#7c5cff"/>
+    <circle cx="1010" cy="230" r="4" fill="#c6ff3d"/><circle cx="890" cy="200" r="4" fill="#4de1ff"/>
+    <rect x="852" y="112" width="16" height="16" rx="3" fill="none" stroke="#c6ff3d" stroke-opacity=".7"/>
+    <rect x="1082" y="132" width="16" height="16" rx="3" fill="none" stroke="#7c5cff" stroke-opacity=".8"/>
+  </g>
+
+  <!-- logo -->
+  <g transform="translate(64 78) scale(.28)">
+    <g filter="url(#blur)" opacity=".6">
+      <rect x="20" y="20" width="472" height="472" rx="112" fill="none" stroke="#c6ff3d" stroke-width="12"/>
+    </g>
+    <rect x="20" y="20" width="472" height="472" rx="112" fill="#04050b" stroke="#c6ff3d" stroke-width="12"/>
+    <g fill="none" stroke="#c6ff3d" stroke-width="26" stroke-linejoin="round">
+      <path d="M90 206L146 262L90 318"/>
+      <path d="M176 338H246"/>
+      <path d="M274 330V190L328 330V190"/>
+      <path d="M366 330V190H396a36 36 0 0 1 0 72H366M398 262L426 330"/>
+    </g>
+  </g>
+
+  <!-- text -->
+  <text x="230" y="140" font-size="56" font-weight="700" fill="url(#name)">Norazfizal Razak</text>
+  <text x="232" y="184" font-size="21" fill="#e9ecf6">AWS &#183; Cloud transformation &#183; Platform delivery</text>
+  <text x="232" y="220" font-size="15" fill="#8a90a8">$ terraform apply --auto-approve <tspan fill="#c6ff3d">&#9612;<animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/></tspan></text>
+</svg>
